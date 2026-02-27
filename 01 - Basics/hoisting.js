@@ -8,3 +8,8 @@ function hoisting() {
     console.log(y); //literal = kumar
 }
 hoisting();
+
+// Template literal 
+let name = "Vishnu";
+let sentence = `Hi ,${name} K Kumar`;
+console.log(sentence);
